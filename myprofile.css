@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+   background-color: #f0f0f0;
+   width: 100%;
+   position: fixed;
+   z-index: 999;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px 200px;
+}
+.logo{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(114, 21, 36);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.navigation a{
+   padding-left: 20px;
+   font-size: 15px;
+   text-decoration: none;
+   color: rgb(114, 21, 36);
+}
+.navigation a:hover{
+    color: black;
+}
+
+section{
+    padding: 200px 200px;
+}
+.main{
+    font-size: 40px;
+    background-image: url("black.jpg");
+    background-position: center;  
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    letter-spacing: 1px;
+}
+.p1{
+    margin-bottom: 10px;
+
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.p2{
+    font-weight: bold;
+    font-size: 45px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.p3{
+     font-weight: bold; 
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.btn{
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: none;
+    display: inline-block;
+    margin-bottom: 10px;
+    transition: 0.7s ease;
+
+}
+
+.btn:hover{
+    background-color:rgb(114, 21, 36) ;
+    color:white;
+    transform: scale(1.1);
+}
+.icon a{
+    color: white;
+    display: inline-block;
+    padding-right: 20px;
+    font-size:30px ;
+    transition: 0.7s ease;
+} 
+.icon a:hover{
+    color:rgb(114, 21, 36);
+    transform: scale(1.1);
+}
+.cards{
+    padding-top: 30px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+    color:rgb(114, 21, 36);
+    margin-bottom: 60px;
+   
+}
+.card{
+    border: none;
+    width: 250px;
+    height: 300px;
+    background-color: white;
+    transition: 0.7s ease;
+    box-shadow: 10px 10px 10px rgb(150, 150, 150);
+    margin: 0px 30px;
+    
+
+}
+.card:hover{
+    background-color:rgb(114, 21, 36) ;
+    color:white;
+    transform: scale(1.1);
+}
+.icone2{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 180px;
+    color: black;
+}
+.nametext{
+    /* display:flex ;
+    flex-direction: column; */
+    /* align-items: center; */
+    text-align: center;
+    color: black;
+    letter-spacing: 1px;
+
+}
+.content{
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+    
+   
+}
+
+.angular{
+    padding-top: 20px;
+    margin-left: 8px;
+    font-size: 15px;
+    color: black;
+}
+
+.cursus{
+    background-color: black;
+    color: white;
+    padding-top: 30px;
+}
+.namecursus{
+    display: flex;
+    justify-content: center;
+    /* font-size: 20px; */
+    font-weight: bold;
+} 
+.content2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.card2{
+    width: 200px;
+    background-color:rgb(114, 21, 36) ;
+    border: none;
+    border-radius:5px;
+    margin: 20px;
+    transition: 0.7s ease;
+    box-shadow: 10px 10px 10px rgb(255, 255, 255);
+   
+}
+.card2:hover{
+    background-color:white ;
+    color:black;
+    transform: scale(1.1);
+}
+.icone3{
+    display: flex;
+    font-size: 120px;
+    justify-content: center;
+   
+}
+.text{
+    text-align: center;
+    letter-spacing: 1px;
+}
+.contact{
+    padding: 30px;
+
+    height: 350px;
+}
+.namecontact{
+    padding: 30px;
+    text-align: center;
+    color:rgb(114, 21, 36) ;
+}
+.contentinformation{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contentemail{
+    background-color: rgb(244, 250, 250);
+    margin: 0px 20px;
+    width: 280px;
+    border-radius: 10px;
+    transition: 0.7s ease;
+    box-shadow: 10px 10px 10px rgb(114, 21, 36) ;
+    border: none;
+    
+    
+}
+.contentemail :hover{
+    background-color:rgb(114, 21, 36) ;
+    color:white;
+    transform: scale(1.1);
+}
+.emailicone{
+    font-size: 60px;
+    color: black;
+    text-align: center;
+}
+.email{
+    text-align: center;
+    font-size: 20px;
+}
+.footer{
+    background-color: black;
+    height: 150px;
+}
+
+.copyright{
+    padding-top: 100px;
+    text-align: center;
+    color: white;
+    letter-spacing: 2px;
+}
+
+@media (max-width:1023px){
+    header{
+        padding: 1px 1px;
+        
+    }
+    .logo{
+        font-size: 20px;
+    }
+    .navigation a{
+        padding-left: 3px;
+        font-size: 10px;
+        
+    }
+    section{
+        padding: 10px 10px;
+    }
+    .main{
+        font-size: 5px;
+        background-size:220% 250%;
+        background-position-x: -50px; 
+        background-position-y: center; 
+   }
+   .p1{
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding-top: 30px ;
+    }
+    .p2{
+        font-size: 11px;
+        letter-spacing: 1px;
+        margin-bottom: 5px;
+        font-weight: normal;
+    }
+    .p3{ 
+        font-size:12px;
+        letter-spacing: 1px;
+        margin-bottom: 5px;
+        font-weight: normal;
+    }
+    .btn{
+        height: 20px;
+        width: 90px;
+        border-radius: 5px;
+        font-weight: bold;
+        border: none;
+        display: inline-block;
+        margin-bottom: 5px;
+        transition: 0.7s ease;
+        font-size: 10px;
+    
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+        
+    }
+    .title{
+        padding-right: 80px;
+    }
+    .card{
+        
+        width: 200px;
+        height: 280px;
+        margin: 10px 10px;
+        padding-right: 80px;
+    
+    }
+    .icone2{
+        display: flex;
+        justify-content: center;
+        margin-top: 5px;
+        font-size: 140px;
+        color: black;
+    }
+    .icon a{
+        color: white;
+        display: inline-block;
+        padding-right: 10px;
+        font-size:20px ;
+        transition: 0.7s ease;
+    } 
+
+
+    .contact{
+        padding: 20px;
+    
+        height: 450px;
+        
+    }
+    .namecontact{
+        padding-right: 80px;
+    }
+
+    .namecursus{
+        padding-right: 80px;
+    } 
+    .content2{
+        padding-right: 80px;
+        margin: 20px;
+    }
+
+
+    .contentinformation{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-right: 50px;
+    }
+    .contentemail{
+        margin: 10px 10px;
+        width: 250px;
+        border-radius: 10px;
+        transition: 0.7s ease;
+        box-shadow: 10px 10px 10px rgb(114, 21, 36) ;
+        border: none; 
+    }
+    .email{
+        font-size: 15px;
+    }
+    .copyright{
+        padding-top: 50px;
+        padding-right: 50px;
+        font-size: 12px
+    }
+}
